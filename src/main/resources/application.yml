@@ -1,0 +1,11 @@
+server:
+  port: 9921
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9901/eureka/
+
+spring:
+  application:
+    name: service-config
