@@ -9,3 +9,9 @@ eureka:
 spring:
   application:
     name: service-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangpeijian/service-config-repertory.git
+          searchPaths: /
