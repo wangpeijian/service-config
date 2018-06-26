@@ -1,6 +1,7 @@
+docker rmi service-config
+
 docker build -t service-config --build-arg port=9921 ./
 
-docker rmi java
 docker stop config9921
 docker rm config9921
 
